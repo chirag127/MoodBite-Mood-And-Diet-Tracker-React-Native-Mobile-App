@@ -1,0 +1,23 @@
+build:
+  repo: chirag127/MoodBite-Mood-And-Diet-Tracker-React-Native-Mobile-App
+  workflow: CI
+
+coverage:
+  repo: chirag127/MoodBite-Mood-And-Diet-Tracker-React-Native-Mobile-App
+  branch: main
+  format: codecov
+
+tech_stack:
+  language: TypeScript
+  framework: React Native
+  manager: Expo
+
+lint_format:
+  tool: Biome
+
+license:
+  license: CC BY-NC 4.0
+
+repo_activity:
+  user: chirag127
+  repo: MoodBite-Mood-And-Diet-Tracker-React-Native-Mobile-App
