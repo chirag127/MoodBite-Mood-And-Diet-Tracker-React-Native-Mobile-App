@@ -1,36 +1,39 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+# Node/JavaScript build artifacts and dependencies
+node_modules
 
-# dependencies
-node_modules/
+# Expo Cache and Build Artifacts
+.expo
+.expo-shared
+.expo-cache
+build/
+*.log
 
-# Expo
-.expo/
-dist/
-web-build/
-expo-env.d.ts
+# React Native / Metro Bundler
+metro-cache
+coverage
 
-# Native
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-
-# Metro
-.metro-health-check*
-
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
+# TypeScript compilation output
+dist
 
 # macOS
 .DS_Store
-*.pem
 
-# local env files
-.env*.local
+# Android specific files (if using native build paths)
+android/build
+android/.gradle
 
-# typescript
-*.tsbuildinfo
+# iOS specific files (if using native build paths)
+iOS/build
+iOS/*.xcworkspace
+iOS/*.xcodeproj
+
+# IDE Artifacts
+.idea/
+*.swp
+
+# Secrets and Environment Variables (Important for mobile)
+.env
+*.env
+
+# Testing artifacts
+junit.xml
